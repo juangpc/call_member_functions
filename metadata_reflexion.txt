@@ -1,0 +1,16 @@
+https://github.com/preshing/FlexibleReflection/blob/part1/Primitives.cpp
+
+https://www.randygaul.net/2012/10/01/c-reflection-type-metadata-introduction/
+
+https://docs.oracle.com/cd/B12037_01/appdev.101/b10778/reference018.htm
+
+https://stackoverflow.com/questions/47055487/use-template-class-to-bundle-type-metadata-c
+
+https://stackoverflow.com/questions/42263669/c-meta-data-information-in-source-code-to-see-through-ast
+
+https://stackoverflow.com/questions/359237/why-does-c-not-have-reflection
+
+https://preshing.com/20180116/a-primitive-reflection-system-in-cpp-part-1/
+
+https://www.bogotobogo.com/cplusplus/template_specialization_traits.php
+
