@@ -11,8 +11,18 @@ public:
     {
         return 33;
     }
+    operator float()
+    {
+        return 35.1f;
+    }
+    operator const char*()
+    {
+        return _str;
+    }
+
 private: 
     int _a;
+    const char* _str = "blablabla";
 };
 
 
@@ -21,8 +31,17 @@ int main()
     Pepe p{3};
 
     int a = p;
+    float f = p;
+    const char* s = p;
 
-    std::cout << "Hello Pepe : " << a << "\n";
+    std::cout << "Int : " << a << "\n";
+    std::cout << "Float: " << f << "\n";
+    std::cout << "Str: " << s << "\n";
 
     return 0;
 }
+
+// //output: 
+// Int : 33
+// Float: 35.1
+// Str: blablabla
