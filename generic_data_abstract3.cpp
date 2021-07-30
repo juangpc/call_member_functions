@@ -39,13 +39,19 @@ public:
     }
 
     template<typename T_meta>
-    T_meta getMetaData(const std::string& key) const 
+    void setMetaData(const std::string& key, Data<T_meta> data)
+    {
+        m_metaData[key] = std::make_shared<Data<T_meta>>(data);
+    }
+    
+    template<typename T_meta>
+    Data<T_meta> getMetaData(const std::string& key) const 
     {
         auto search = m_metaData.find(key);
         if( search != m_metaData.end())
         {
             auto data = static_cast<Data<T_meta>*>(search->second.get());
-            return data->getValue();
+            return *data;
         }
     }
 
@@ -114,10 +120,9 @@ int main() {
     }
 
     Data<double>* din2 = static_cast<Data<double>*>(dataIn[1].get());
-    int myNumSensors = din2->getMetaData<int>("num sensors");
+    int myNumSensors = din2->getMetaData<int>("num sensors").getValue();
 
     std::cout << "I have " << myNumSensors << " sensors.\n";
 
     return 0;
 }
-
