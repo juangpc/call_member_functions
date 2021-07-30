@@ -15,3 +15,7 @@ https://preshing.com/20180116/a-primitive-reflection-system-in-cpp-part-1/
 https://www.bogotobogo.com/cplusplus/template_specialization_traits.php
 
 https://stackoverflow.com/questions/35192561/a-map-in-c-which-can-accept-any-type-of-value
+
+https://stackoverflow.com/questions/251403/how-do-you-make-a-heterogeneous-boostmap
+
+https://github.com/joboccara/pipes
