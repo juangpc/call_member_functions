@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <iomanip>
 #include <cstring>
+#include <string>
 
 class A
 {
@@ -29,6 +30,11 @@ public:
         delete m_vals;
     }
 
+    // A(const A& a)
+    // : generation{a.generation}
+    // , m_vals{a.m_vals}
+    // , size{a.size}
+    // { }
     A(const A& a)
     : generation{a.generation + "_cp"}
     , size{a.size}
@@ -82,9 +88,9 @@ int main()
     // A myA3(myA2);
     // std::cout << myA3;
 
-    // // myA3.m_vals[0] = 0;
-    // // std::cout << myA2;
-    // // std::cout << myA3;
+    // myA3.m_vals[0] = 0;
+    // std::cout << myA2;
+    // std::cout << myA3;
 
 
     // // A myA4 = myA3;
@@ -98,7 +104,14 @@ int main()
     // A myA4(gimmeA(4));
     // std::cout << myA4;
 
-    std::cout << gimmeA(6);
+
+
+    A myA =  A(3);
+    std::cout << myA;
+    
+
+
+    // std::cout << gimmeA(6);
     std::cout << "bye\n";
     return 0;
 }
