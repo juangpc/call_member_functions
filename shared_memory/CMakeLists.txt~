@@ -1,0 +1,8 @@
+cmake_minimum_version(3.2)
+
+
+project(hello)
+
+add_executable(hello test.cpp)
+
+q
