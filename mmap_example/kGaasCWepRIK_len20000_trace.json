@@ -1,0 +1,30 @@
+{"displayTimeUnit": "ms","traceEvents":[
+{"name":"dealing with populating mapped memory","cat":"bst","ph":"B","ts":191,"pid":1,"tid":11643,"args":{"file path":"main2.cpp","line number":83}}
+,{"name":"populateArray","cat":"bst","ph":"B","ts":205,"pid":1,"tid":11643,"args":{"file path":"main2.cpp","line number":48}}
+,{"name":"populateArray","cat":"bst","ph":"E","ts":429,"pid":1,"tid":11643,"args":{"file path":"main2.cpp","line number":48}}
+,{"name":"multiplyby3","cat":"bst","ph":"B","ts":433,"pid":1,"tid":11643,"args":{"file path":"main2.cpp","line number":40}}
+,{"name":"multiplyby3","cat":"bst","ph":"E","ts":524,"pid":1,"tid":11643,"args":{"file path":"main2.cpp","line number":40}}
+,{"name":"dealing with populating mapped memory","cat":"bst","ph":"E","ts":526,"pid":1,"tid":11643,"args":{"file path":"main2.cpp","line number":83}}
+,{"name":"dealing with populating mapped memory again","cat":"bst","ph":"B","ts":528,"pid":1,"tid":11643,"args":{"file path":"main2.cpp","line number":88}}
+,{"name":"populateArray","cat":"bst","ph":"B","ts":535,"pid":1,"tid":11643,"args":{"file path":"main2.cpp","line number":48}}
+,{"name":"populateArray","cat":"bst","ph":"E","ts":635,"pid":1,"tid":11643,"args":{"file path":"main2.cpp","line number":48}}
+,{"name":"multiplyby3","cat":"bst","ph":"B","ts":638,"pid":1,"tid":11643,"args":{"file path":"main2.cpp","line number":40}}
+,{"name":"multiplyby3","cat":"bst","ph":"E","ts":728,"pid":1,"tid":11643,"args":{"file path":"main2.cpp","line number":40}}
+,{"name":"dealing with populating mapped memory again","cat":"bst","ph":"E","ts":729,"pid":1,"tid":11643,"args":{"file path":"main2.cpp","line number":88}}
+,{"name":"unmapping","cat":"bst","ph":"B","ts":731,"pid":1,"tid":11643,"args":{"file path":"main2.cpp","line number":93}}
+,{"name":"unmapping","cat":"bst","ph":"E","ts":862,"pid":1,"tid":11643,"args":{"file path":"main2.cpp","line number":93}}
+,{"name":"allocating array","cat":"bst","ph":"B","ts":867,"pid":1,"tid":11643,"args":{"file path":"main2.cpp","line number":99}}
+,{"name":"allocating array","cat":"bst","ph":"E","ts":899,"pid":1,"tid":11643,"args":{"file path":"main2.cpp","line number":99}}
+,{"name":"dealing with unmapped array","cat":"bst","ph":"B","ts":902,"pid":1,"tid":11643,"args":{"file path":"main2.cpp","line number":102}}
+,{"name":"populateArray","cat":"bst","ph":"B","ts":904,"pid":1,"tid":11643,"args":{"file path":"main2.cpp","line number":48}}
+,{"name":"populateArray","cat":"bst","ph":"E","ts":1051,"pid":1,"tid":11643,"args":{"file path":"main2.cpp","line number":48}}
+,{"name":"multiplyby3","cat":"bst","ph":"B","ts":1053,"pid":1,"tid":11643,"args":{"file path":"main2.cpp","line number":40}}
+,{"name":"multiplyby3","cat":"bst","ph":"E","ts":1143,"pid":1,"tid":11643,"args":{"file path":"main2.cpp","line number":40}}
+,{"name":"dealing with unmapped array","cat":"bst","ph":"E","ts":1145,"pid":1,"tid":11643,"args":{"file path":"main2.cpp","line number":102}}
+,{"name":"dealing with unmapped array again","cat":"bst","ph":"B","ts":1147,"pid":1,"tid":11643,"args":{"file path":"main2.cpp","line number":107}}
+,{"name":"populateArray","cat":"bst","ph":"B","ts":1150,"pid":1,"tid":11643,"args":{"file path":"main2.cpp","line number":48}}
+,{"name":"populateArray","cat":"bst","ph":"E","ts":1264,"pid":1,"tid":11643,"args":{"file path":"main2.cpp","line number":48}}
+,{"name":"multiplyby3","cat":"bst","ph":"B","ts":1266,"pid":1,"tid":11643,"args":{"file path":"main2.cpp","line number":40}}
+,{"name":"multiplyby3","cat":"bst","ph":"E","ts":1357,"pid":1,"tid":11643,"args":{"file path":"main2.cpp","line number":40}}
+,{"name":"dealing with unmapped array again","cat":"bst","ph":"E","ts":1358,"pid":1,"tid":11643,"args":{"file path":"main2.cpp","line number":107}}
+]}
