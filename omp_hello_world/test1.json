@@ -1,0 +1,6 @@
+{"displayTimeUnit": "ms","traceEvents":[
+{"name":"section1","cat":"bst","ph":"B","ts":779,"pid":1,"tid":17747,"args":{"file path":"main.cpp","line number":19}}
+,{"name":"section2","cat":"bst","ph":"B","ts":796,"pid":1,"tid":13547,"args":{"file path":"main.cpp","line number":26}}
+,{"name":"section1","cat":"bst","ph":"E","ts":1001157,"pid":1,"tid":17747,"args":{"file path":"main.cpp","line number":19}}
+,{"name":"section2","cat":"bst","ph":"E","ts":2003380,"pid":1,"tid":13547,"args":{"file path":"main.cpp","line number":26}}
+]}
