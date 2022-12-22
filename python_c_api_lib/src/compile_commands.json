@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/Users/j/projects/code_snippets/python_c_api_lib/build/lib/calls",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/j/projects/code_snippets/python_c_api_lib/src/lib/calls/include  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -o CMakeFiles/calls.dir/src/calls.cpp.o -c /Users/j/projects/code_snippets/python_c_api_lib/src/lib/calls/src/calls.cpp",
+  "file": "/Users/j/projects/code_snippets/python_c_api_lib/src/lib/calls/src/calls.cpp"
+},
+{
+  "directory": "/Users/j/projects/code_snippets/python_c_api_lib/build/lib/calls",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -Dcalls_shared_EXPORTS -I/Users/j/projects/code_snippets/python_c_api_lib/src/lib/calls/include  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -fPIC -o CMakeFiles/calls_shared.dir/src/calls.cpp.o -c /Users/j/projects/code_snippets/python_c_api_lib/src/lib/calls/src/calls.cpp",
+  "file": "/Users/j/projects/code_snippets/python_c_api_lib/src/lib/calls/src/calls.cpp"
+},
+{
+  "directory": "/Users/j/projects/code_snippets/python_c_api_lib/build/app",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/j/projects/code_snippets/python_c_api_lib/src/lib/calls/include  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -o CMakeFiles/hellos.dir/main.cpp.o -c /Users/j/projects/code_snippets/python_c_api_lib/src/app/main.cpp",
+  "file": "/Users/j/projects/code_snippets/python_c_api_lib/src/app/main.cpp"
+},
+{
+  "directory": "/Users/j/projects/code_snippets/python_c_api_lib/build/python_embedded",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/opt/anaconda3/include/python3.9  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -o CMakeFiles/python_embedded.dir/main.cpp.o -c /Users/j/projects/code_snippets/python_c_api_lib/src/python_embedded/main.cpp",
+  "file": "/Users/j/projects/code_snippets/python_c_api_lib/src/python_embedded/main.cpp"
+}
+]
